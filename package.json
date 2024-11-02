@@ -1,0 +1,29 @@
+{
+  "name": "whiskeysocket-webhook",
+  "version": "1.0.0",
+  "description": "webhook-only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "ilman s",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.5",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "long": "^5.2.3",
+    "mime-types": "^2.1.35",
+    "openai": "^4.55.3",
+    "pino": "^9.3.1",
+    "pino-pretty": "^11.2.1",
+    "wa-sticker-formatter": "^4.4.4"
+  },
+  "devDependencies": {
+    "node-cache": "^5.1.2"
+  }
+}
