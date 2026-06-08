@@ -28,6 +28,7 @@ To get started, follow these steps:
 
    ```bash
    npm install
+   npm install whatsapp-web.js qrcode-terminal
    npm run start
    ```
 
